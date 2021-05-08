@@ -12,12 +12,10 @@
     "footer1";
 }
 #header1 {
-  height: 100px;
   grid-area: header1;
   border: 1px solid red;
 }
 #footer1 {
-  height: 100px;
   grid-area: footer1;
   border: 1px solid red;
 }
@@ -33,7 +31,6 @@
 }
 @media (min-width:800px) {
   #main1 {
-    height: 100px;
     grid-area: main1;
     border: 1px solid red;
     display: grid;
@@ -44,11 +41,9 @@
   }
 #aside1 {
   border: 1px solid red;
-  height: 100px;
   grid-area: aside1;
 }
 #section1 {
   border: 1px solid red;
-  height: 100px;
   grid-area: section1;
 }

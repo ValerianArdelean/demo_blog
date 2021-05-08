@@ -1,65 +1,67 @@
+/* This CSS file contain images quality and resolution implementation, to be
+served diffrents quality for diffrent devices sizes  */
 @media (min-width: 200px) {
   #pupy {
-    content: url("https://place-puppy.com/280x300");
+    content: url("https://place-puppy.com/280x500");
   }
 }
 @media (min-width: 300px) {
   #pupy {
-    content: url("https://place-puppy.com/300x300");
+    content: url("https://place-puppy.com/300x500");
   }
 }
 @media (min-width: 400px) {
   #pupy {
-    content: url("https://place-puppy.com/400x300");
+    content: url("https://place-puppy.com/400x500");
   }
 }
 @media (min-width: 500px) {
   #pupy {
-    content: url("https://place-puppy.com/500x300");
+    content: url("https://place-puppy.com/500x500");
   }
 }
 @media (min-width: 600px) {
   #pupy {
-    content: url("https://place-puppy.com/600x300");
+    content: url("https://place-puppy.com/600x500");
   }
 }
 @media (min-width: 700px) {
   #pupy {
-    content: url("https://place-puppy.com/700x300");
+    content: url("https://place-puppy.com/700x500");
   }
 }
 @media (min-width: 800px) {
   #pupy {
-    content: url("https://place-puppy.com/720x300");
+    content: url("https://place-puppy.com/700x500");
   }
 }
 @media (min-width: 1000px) {
   #pupy {
-    content: url("https://place-puppy.com/920x300");
+    content: url("https://place-puppy.com/900x500");
   }
 }
 @media (min-width: 1200px) {
   #pupy {
-    content: url("https://place-puppy.com/1120x300");
+    content: url("https://place-puppy.com/1100x500");
   }
 }
 @media (min-width: 1400px) {
   #pupy {
-    content: url("https://place-puppy.com/1320x300");
+    content: url("https://place-puppy.com/1300x500");
   }
 }
 @media (min-width: 1600px) {
   #pupy {
-    content: url("https://place-puppy.com/1520x300");
+    content: url("https://place-puppy.com/1520x500");
   }
 }
 @media (min-width: 1800px) {
   #pupy {
-    content: url("https://place-puppy.com/1720x300");
+    content: url("https://place-puppy.com/1700x500");
   }
 }
 @media (min-width: 2000px) {
   #pupy {
-    content: url("https://place-puppy.com/1920x300");
+    content: url("https://place-puppy.com/1900x500");
   }
 }

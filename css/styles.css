@@ -1,8 +1,10 @@
+/* This page contain STYLE implementation for the main/home HTML page */
 html {
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.7);
 }
-ul, figure {
+ul,
+figure {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -16,24 +18,8 @@ a {
   border-radius: 5px;
   border: 1px solid purple;
   background-color: inherit;
-  color: inherit;
-}
-li {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-form {
-  width: 20%;
-  padding-right: 70px;
-}
-footer {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-#signature {
-  padding-right: 3%;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 a:hover,
 #submit:hover {

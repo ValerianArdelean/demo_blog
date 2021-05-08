@@ -1,3 +1,4 @@
+/* This CSS file contain GRID, FLEX and LAYOUT implementation */
 @import "media_queryes.css";
 @import "styles.css";
 @import "page.css";
@@ -27,15 +28,21 @@
     "aside1"
     "section1";
 }
+ul {
+  display: flex;
+}
 @media (min-width:800px) {
   #main1 {
     margin: auto;
     grid-area: main1;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 120px, 5fr;
     grid-template-rows: auto;
     grid-template-areas:
       "aside1 section1"
+  }
+  ul {
+    display: block;
   }
 }
 #aside1 {
@@ -45,4 +52,21 @@
 #section1 {
   margin: auto;
   grid-area: section1;
+}
+li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form {
+  width: 20%;
+  padding-right: 70px;
+}
+footer {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#signature {
+  padding-right: 3%;
 }

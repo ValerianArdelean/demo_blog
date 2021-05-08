@@ -1,0 +1,37 @@
+/* This page contain STYLE, FLEX and LAYOUT implementation for the second/author
+HTML page */
+#avatar {
+  border-radius: 100px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#figcaption2 {
+  margin-left: 20px;
+}
+#section2 {
+  display: flex;
+}
+@media (max-width:700px) {
+  #section2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    border-radius: 100px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 100px;
+}

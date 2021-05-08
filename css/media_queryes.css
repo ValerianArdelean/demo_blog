@@ -10,7 +10,7 @@
 }
 @media (min-width: 400px) {
   #pupy {
-    content: url("https://place-puppy.com/4000x300");
+    content: url("https://place-puppy.com/400x300");
   }
 }
 @media (min-width: 500px) {
@@ -30,40 +30,36 @@
 }
 @media (min-width: 800px) {
   #pupy {
-    content: url("https://place-puppy.com/760x300");
+    content: url("https://place-puppy.com/720x300");
   }
 }
 @media (min-width: 1000px) {
   #pupy {
-    content: url("https://place-puppy.com/960x300");
+    content: url("https://place-puppy.com/920x300");
   }
 }
 @media (min-width: 1200px) {
   #pupy {
-    content: url("https://place-puppy.com/1160x300");
+    content: url("https://place-puppy.com/1120x300");
   }
 }
 @media (min-width: 1400px) {
   #pupy {
-    content: url("https://place-puppy.com/1360x300");
+    content: url("https://place-puppy.com/1320x300");
   }
 }
 @media (min-width: 1600px) {
   #pupy {
-    content: url("https://place-puppy.com/1560x300");
+    content: url("https://place-puppy.com/1520x300");
   }
 }
 @media (min-width: 1800px) {
   #pupy {
-    content: url("https://place-puppy.com/1760x300");
+    content: url("https://place-puppy.com/1720x300");
   }
 }
 @media (min-width: 2000px) {
   #pupy {
-    content: url("https://place-puppy.com/1960x300");
+    content: url("https://place-puppy.com/1920x300");
   }
-}
-figure {
-  margin: 0;
-  padding: 0;
 }

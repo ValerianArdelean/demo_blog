@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+ul, figure {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#submit,
+#reset,
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid purple;
+  background-color: inherit;
+  color: inherit;
+}
+li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form {
+  width: 20%;
+  padding-right: 70px;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#signature {
+  padding-right: 3%;
+}
+a:hover,
+#submit:hover {
+  background-color: purple;
+  color: white;
+}
+#reset:hover {
+  background-color: red;
+  color: white;
+}

@@ -2,6 +2,7 @@
 @import "styles.css";
 @import "page.css";
 #body1 {
+  width: 98%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -13,15 +14,12 @@
 }
 #header1 {
   grid-area: header1;
-  border: 1px solid red;
 }
 #footer1 {
   grid-area: footer1;
-  border: 1px solid red;
 }
 #main1 {
   grid-area: main1;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -31,20 +29,20 @@
 }
 @media (min-width:800px) {
   #main1 {
+    margin: auto;
     grid-area: main1;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "aside1 section1";
+      "aside1 section1"
   }
 }
 #aside1 {
-  border: 3px solid purple;
   grid-area: aside1;
+  width: 100px;
 }
 #section1 {
-  border: 2px solid green;
+  margin: auto;
   grid-area: section1;
 }

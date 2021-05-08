@@ -18,6 +18,7 @@ a {
   border-radius: 5px;
   border: 1px solid purple;
   background-color: inherit;
+  color: inherit;
   cursor: pointer;
   text-transform: uppercase;
 }

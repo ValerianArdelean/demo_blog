@@ -39,11 +39,12 @@
     grid-template-areas:
       "aside1 section1";
   }
+}
 #aside1 {
-  border: 1px solid red;
+  border: 3px solid purple;
   grid-area: aside1;
 }
 #section1 {
-  border: 1px solid red;
+  border: 2px solid green;
   grid-area: section1;
 }

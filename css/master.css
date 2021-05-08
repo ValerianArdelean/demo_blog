@@ -6,7 +6,7 @@
   grid-template-areas:
     "header1"
     "main1"
-    "footer1"
+    "footer1";
 }
 #header1 {
   height: 100px;
@@ -17,6 +17,22 @@
   height: 100px;
   grid-area: main1;
   border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "aside1"
+    "section1";
+}
+#aside1 {
+  border: 1px solid red;
+  height: 100px;
+  grid-area: aside1;
+}
+#section1 {
+  border: 1px solid red;
+  height: 100px;
+  grid-area: section1;
 }
 #footer1 {
   height: 100px;

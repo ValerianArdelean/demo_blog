@@ -1,3 +1,6 @@
+@import "css/media_queryes.css";
+@import "css/styles.css";
+@import "css/page.css";
 #body1 {
   margin: auto;
   display: grid;

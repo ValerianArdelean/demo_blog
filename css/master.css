@@ -16,8 +16,12 @@
   grid-area: header1;
   border: 1px solid red;
 }
-#main1 {
+#footer1 {
   height: 100px;
+  grid-area: footer1;
+  border: 1px solid red;
+}
+#main1 {
   grid-area: main1;
   border: 1px solid red;
   display: grid;
@@ -27,6 +31,17 @@
     "aside1"
     "section1";
 }
+@media (min-width:800px) {
+  #main1 {
+    height: 100px;
+    grid-area: main1;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "aside1 section1";
+  }
 #aside1 {
   border: 1px solid red;
   height: 100px;
@@ -36,9 +51,4 @@
   border: 1px solid red;
   height: 100px;
   grid-area: section1;
-}
-#footer1 {
-  height: 100px;
-  grid-area: footer1;
-  border: 1px solid red;
 }

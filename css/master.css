@@ -1,0 +1,25 @@
+#body1 {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header1"
+    "main1"
+    "footer1"
+}
+#header1 {
+  height: 100px;
+  grid-area: header1;
+  border: 1px solid red;
+}
+#main1 {
+  height: 100px;
+  grid-area: main1;
+  border: 1px solid red;
+}
+#footer1 {
+  height: 100px;
+  grid-area: footer1;
+  border: 1px solid red;
+}
